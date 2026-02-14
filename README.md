@@ -1,9 +1,5 @@
 # ⚡ Real-Time Socket Chat (Google Auth)
 
-![Socket.io](https://img.shields.io)
-![Google](https://img.shields.io)
-![Node.js](https://img.shields.io)
-
 A high-performance, real-time chat application featuring secure **Gmail Login** integration. This project demonstrates how to bridge [Google OAuth 2.0](https://developers.google.com) with [Socket.io](https://socket.io) event handling.
 
 ---
@@ -22,7 +18,7 @@ A high-performance, real-time chat application featuring secure **Gmail Login** 
 
 | Layer | Technology |
 | :--- | :--- |
-| **Frontend** | React / HTML5 / CSS3 |
+| **Frontend** | React TSX / CSS |
 | **Backend** | [Node.js](https://nodejs.org) & Express |
 | **Real-time** | [Socket.io](https://socket.io) |
 | **Auth** | [Passport-Google-OAuth20](http://www.passportjs.org) |
@@ -38,3 +34,9 @@ GOOGLE_CLIENT_ID=your_id_here
 GOOGLE_CLIENT_SECRET=your_secret_here
 CALLBACK_URL=http://localhost:5000/auth/google/callback
 PORT=5000
+
+
+
+![Register page](/frontend/public/assets/Register.png)
+![Login](/frontend/public/assets/Login.png)
+![Main Screen](/frontend/public/assets/Mainscreen.png)
